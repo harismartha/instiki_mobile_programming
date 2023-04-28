@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Latihan Layout</string>
+    <string name="profil">Profil</string>
+    <string name="nama_anggota_1">I Dewa Gede Haris Martha Ratmaja</string>
+    <string name="nim_anggota_1">2201010030</string>
+    <string name="nama_anggota_2">Ni Made Irma Krisna Yanthi</string>
+    <string name="nim_anggota_2">220100033</string>
+    <string name="nama_anggota_3">Gideon Elisafan</string>
+    <string name="nim_anggota_3">20104140</string>
+    <string name="kelompok_name">Kelompok 4</string>
+</resources>
