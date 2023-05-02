@@ -29,13 +29,16 @@
         android:textStyle="bold" />
 
     <LinearLayout
+        android:id="@+id/linear_lay_anggota_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
         android:orientation="vertical"
         android:paddingTop="@dimen/small_padding"
         android:paddingBottom="@dimen/small_padding">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
@@ -72,13 +75,16 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linear_lay_anggota_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
         android:orientation="vertical"
         android:paddingTop="@dimen/small_padding"
         android:paddingBottom="@dimen/small_padding">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
@@ -115,15 +121,19 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linear_lay_anggota_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
         android:orientation="vertical"
         android:paddingTop="@dimen/small_padding"
         android:paddingBottom="@dimen/small_padding">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:clipToPadding="false"
             app:cardCornerRadius="@dimen/corner_normal"
             app:cardUseCompatPadding="false"
