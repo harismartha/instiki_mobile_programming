@@ -9,16 +9,16 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="198dp"
-        android:layout_weight="1"
+        android:layout_height="200dp"
         android:padding="@dimen/normal_padding"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/ic_launcher_background" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:padding="@dimen/normal_padding"
+        android:paddingLeft="@dimen/normal_padding"
+        android:paddingRight="@dimen/normal_padding"
+        android:paddingBottom="@dimen/small_padding"
         android:text="Biodata"
         android:textAlignment="viewStart"
         android:textStyle="bold" />
