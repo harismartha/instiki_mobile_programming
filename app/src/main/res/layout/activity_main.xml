@@ -5,26 +5,33 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/normal_padding"
+    android:padding="@dimen/padding_normal"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="@dimen/padding_long"
-        android:text="@string/kelompok_name"
+        android:text="Foto Bersama"
         android:textAlignment="center"
-        android:textSize="@dimen/font_size_large"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_medium"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="@dimen/margin_long"
+        android:src="@drawable/kelompok"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/profil"
+        android:textColor="@color/black"
         android:textSize="@dimen/font_size_large"
         android:textStyle="bold" />
 
@@ -34,8 +41,8 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:orientation="vertical"
-        android:paddingTop="@dimen/small_padding"
-        android:paddingBottom="@dimen/small_padding">
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_anggota_1"
@@ -57,18 +64,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_1"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nim_anggota_1"
-                    android:textSize="@dimen/font_size_medium"
-                    android:textStyle="bold" />
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_medium"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -80,8 +88,8 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:orientation="vertical"
-        android:paddingTop="@dimen/small_padding"
-        android:paddingBottom="@dimen/small_padding">
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_anggota_2"
@@ -103,18 +111,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_2"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nim_anggota_2"
-                    android:textSize="@dimen/font_size_medium"
-                    android:textStyle="bold" />
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_medium" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -126,8 +135,8 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:orientation="vertical"
-        android:paddingTop="@dimen/small_padding"
-        android:paddingBottom="@dimen/small_padding">
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_anggota_3"
@@ -150,62 +159,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_3"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/smallest_padding"
+                    android:padding="@dimen/padding_smallest"
                     android:text="@string/nim_anggota_3"
-                    android:textSize="@dimen/font_size_medium"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-    </LinearLayout>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/normal_padding"
-        android:text="Aplikasi"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="@dimen/small_padding"
-        android:paddingBottom="@dimen/small_padding">
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clipToPadding="false"
-            app:cardBackgroundColor="@color/green_ver"
-            app:cardCornerRadius="@dimen/corner_normal"
-            app:cardUseCompatPadding="false"
-            app:strokeColor="@android:color/secondary_text_dark"
-            app:strokeWidth="@dimen/stroke_light">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="@dimen/margin_medium"
-                android:orientation="vertical"
-                android:paddingLeft="@dimen/padding_long">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kalkulator Segitiga"
-                    android:textSize="@dimen/font_size_medium"
-                    android:textStyle="bold" />
+                    android:textSize="@dimen/font_size_medium"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

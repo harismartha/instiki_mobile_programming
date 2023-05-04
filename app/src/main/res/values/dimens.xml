@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="smallest_padding">3dp</dimen>
-    <dimen name="small_padding">8dp</dimen>
-    <dimen name="normal_padding">16dp</dimen>
-    <dimen name="padding_long">50dp</dimen>
+    <dimen name="padding_smallest">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_long">64dp</dimen>
+    <dimen name="padding_longest">128dp</dimen>
+
+    <dimen name="margin_smallest">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_long">64dp</dimen>
+
     <dimen name="font_size_large">24sp</dimen>
     <dimen name="font_size_medium">18sp</dimen>
     <dimen name="corner_normal">20dp</dimen>
-    <dimen name="stroke_light">1dp</dimen>
+    <dimen name="stroke_light">2dp</dimen>
     <dimen name="margin_medium">15dp</dimen>
 </resources>
