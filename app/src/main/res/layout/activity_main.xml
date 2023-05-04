@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/normal_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_long"
+        android:text="@string/kelompok_name"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_size_large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profil"
+        android:textSize="@dimen/font_size_large"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear_lay_anggota_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            app:cardCornerRadius="@dimen/corner_normal"
+            app:cardUseCompatPadding="false"
+            app:strokeColor="@color/green_dark"
+            app:strokeWidth="@dimen/stroke_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_medium"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_long">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nama_anggota_1"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nim_anggota_1"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_lay_anggota_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            app:cardCornerRadius="@dimen/corner_normal"
+            app:cardUseCompatPadding="false"
+            app:strokeColor="@color/green_dark"
+            app:strokeWidth="@dimen/stroke_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_medium"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_long">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nama_anggota_2"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nim_anggota_2"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_lay_anggota_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_anggota_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipToPadding="false"
+            app:cardCornerRadius="@dimen/corner_normal"
+            app:cardUseCompatPadding="false"
+            app:strokeColor="@color/green_dark"
+            app:strokeWidth="@dimen/stroke_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_medium"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_long">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nama_anggota_3"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/smallest_padding"
+                    android:text="@string/nim_anggota_3"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/normal_padding"
+        android:text="Aplikasi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            app:cardBackgroundColor="@color/green_ver"
+            app:cardCornerRadius="@dimen/corner_normal"
+            app:cardUseCompatPadding="false"
+            app:strokeColor="@android:color/secondary_text_dark"
+            app:strokeWidth="@dimen/stroke_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_medium"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_long">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kalkulator Segitiga"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</LinearLayout>

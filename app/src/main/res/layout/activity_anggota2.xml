@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Anggota2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="@dimen/normal_padding"
+        app:srcCompat="@drawable/anggota_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/normal_padding"
+        android:paddingRight="@dimen/normal_padding"
+        android:paddingBottom="@dimen/small_padding"
+        android:text="Biodata"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/normal_padding"
+        android:paddingRight="@dimen/normal_padding">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/bio_anggota_2"-->
+<!--            android:textAlignment="viewStart" />-->
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="Nama"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ni Made Irma Krisna Yanthi"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="NIM"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2201010033"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="Alamat"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Jalan Drupadi XVI"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="Agama"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hindu"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="Telp"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="082145745945"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/normal_padding"
+            android:paddingRight="@dimen/normal_padding"
+            android:text="Email"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=":"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="irmakrisnayanti31@gmail.com"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+</LinearLayout>
