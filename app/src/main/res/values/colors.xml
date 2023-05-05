@@ -4,6 +4,8 @@
     <color name="green_ver">#EBFFD7</color>
     <color name="green_light">#DDFFBB</color>
     <color name="green_dark">#DA90A57A</color>
+    <color name="blue_dark">#007ea7 </color>
+    <color name="blue_light">#A5E5FD</color>
     <color name="orange">#EBB02D</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

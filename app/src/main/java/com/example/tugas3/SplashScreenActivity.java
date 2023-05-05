@@ -5,12 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class SplashScreenActivity extends AppCompatActivity {
     ImageView imgLogo;
+    Animation animFade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,12 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         //isi variable
         imgLogo = findViewById(R.id.image_logo);
+        animFade = AnimationUtils.loadAnimation(this,R.anim.fade);
 
+        //set animasi fade ke logo
+        imgLogo.startAnimation(animFade);
+
+        /*
         imgLogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,5 +39,16 @@ public class SplashScreenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        */
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 3000);
     }
 }

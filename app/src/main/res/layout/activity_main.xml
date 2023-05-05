@@ -51,7 +51,7 @@
             android:clipToPadding="false"
             app:cardCornerRadius="@dimen/corner_normal"
             app:cardUseCompatPadding="false"
-            app:strokeColor="@color/green_dark"
+            app:strokeColor="@color/blue_dark"
             app:strokeWidth="@dimen/stroke_light">
 
             <LinearLayout
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_1"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue_dark"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
 
@@ -98,7 +98,7 @@
             android:clipToPadding="false"
             app:cardCornerRadius="@dimen/corner_normal"
             app:cardUseCompatPadding="false"
-            app:strokeColor="@color/green_dark"
+            app:strokeColor="@color/blue_dark"
             app:strokeWidth="@dimen/stroke_light">
 
             <LinearLayout
@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_2"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue_dark"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
 
@@ -146,7 +146,7 @@
             android:clipToPadding="false"
             app:cardCornerRadius="@dimen/corner_normal"
             app:cardUseCompatPadding="false"
-            app:strokeColor="@color/green_dark"
+            app:strokeColor="@color/blue_dark"
             app:strokeWidth="@dimen/stroke_light">
 
             <LinearLayout
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/padding_smallest"
                     android:text="@string/nama_anggota_3"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue_dark"
                     android:textColorHighlight="@color/black"
                     android:textSize="@dimen/font_size_medium"
                     android:textStyle="bold" />
